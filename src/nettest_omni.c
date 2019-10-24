@@ -5258,8 +5258,8 @@ recv_omni()
     break;
   }
 
-  // HACK: force data connection port to 8080
-  omni_request->data_port = 8080;
+  // HACK: force data connection port to 30080
+  omni_request->data_port = 30080;
 
   set_hostname_and_port_2(omni_request->netserver_ip,
 			  local_name,
